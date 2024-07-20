@@ -1,0 +1,13 @@
+.demo-v{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.btn{
+  border: 0cap;
+  background-color: transparent;
+  color: white;
+}
+.btn:hover{
+  color: var(--headFont-color);
+}

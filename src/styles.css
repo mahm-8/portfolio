@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --background-color: #34353a;
+  --headFont-color: #d4a960;
+  --card-color: #3d3e42;
+  width: 80%;
+  max-width: 500px;
+  color: white;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font: 1em Times;
+}
+
+h3 {
+  color: var(--headFont-color);
+}

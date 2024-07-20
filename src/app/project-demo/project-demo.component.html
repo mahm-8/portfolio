@@ -1,0 +1,11 @@
+<article class="demo-v">
+  <div *ngFor="let project of projects">
+    <button class="btn">
+      <h4>{{project.name}}</h4>
+    </button>
+<p>test</p>
+    <video src={{project.demo}} [hidden]=project.selected width="300px" height="300px" controls></video>
+  </div>
+</article>
+
+  

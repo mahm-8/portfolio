@@ -1,0 +1,22 @@
+#menu{
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  background-color:var(--card-color);}
+#menu li {
+  color: white;
+  display: inline-flex;
+  flex: auto;
+  flex-direction: row;
+  padding: 6px;
+}
+
+#menu li:hover {
+  color: #e2c188;
+  cursor: pointer;
+}
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}

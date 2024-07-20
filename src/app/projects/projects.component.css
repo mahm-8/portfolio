@@ -1,0 +1,25 @@
+.container {
+  
+  padding: 8px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 10px));
+  /* Adjust min/max width as needed */
+  grid-gap: 8px;
+}
+
+.tool-div {
+text-align: center;
+  border-radius: 8px;
+  flex-direction: column;
+  width: fit-content;
+  background-color: var(--card-color);
+  padding: 4px;
+  width: 90px;
+}
+
+.tools {
+
+  height: 60px;
+  width: 60px;
+}
